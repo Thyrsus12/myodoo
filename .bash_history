@@ -21,3 +21,28 @@ more .gitconfig
 ls
 ls -a
 exit
+pwd
+git init
+git add .
+ls
+rm -rf odoo14/.git
+git add .
+git commit -am
+git commit -am "commit inicial"
+git config --global user.email "0epsilontau0@gmail.com"
+git config --global user.name "Thyrsus"
+git commit -<
+git commit -am "commit inicial"
+git remote add origin https://github.com/Thyrsus12/myodoo.git
+git push -u origin main
+git branch -M main
+git push -u origin main
+cd /home/dammie/Descargas
+cd /opt/odoo
+ls
+cd dups
+cd dumps
+ls
+cd /home/dammie/Descargas
+rm backup_db1.zip
+exit

@@ -46,3 +46,15 @@ ls
 cd /home/dammie/Descargas
 rm backup_db1.zip
 exit
+pwd
+cd /home/dammie/Descargas
+mv backup_db1.zip.gpg /opt/odoo/dumps
+cd /opt/odoo/dumps
+ls
+cd ..
+git add .
+git commit -am "commit 2"
+git remote add origin https://github.com/Thyrsus12/myodoo.git
+git push
+sudo mv backup_db1.zip.gpg /opt/odoo/dumps
+exit
